@@ -1,0 +1,191 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgb(85, 83, 83);
+}
+
+/* HEADINGS */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+.white-section{
+    
+}
+
+.colored-section{
+    background-color: brown;
+    color: white;
+}
+
+
+#title {
+    text-align: left;
+}
+
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position:static;
+        width: 50%;
+        transform: rotate(0deg);
+        }
+}
+
+
+/* Features */
+
+.sym {
+    color: brown;
+}
+
+.sym:hover  {
+    color: rgb(107, 33, 33);
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* testimonials */
+
+
+
+.img-testimonial {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+/* press */
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+
+}
+
+.list-unstyled {
+    height: 6rem;
+}
+
+/* Call to action */
+
+
+#footer {
+    padding: 8% 5%;
+}
+
+.foot-pad {
+    margin: 10px;
+}
